@@ -22,7 +22,7 @@ Download the Script:
 
 Download the video_to_mp3.py script from this repository.
 
-Usage
+usage
 To convert a video file to an MP3 audio file, use the video_to_mp3.py script with the following command:
 For mac python vidto-mp3.py
 For windows py vidto-mp3.py
