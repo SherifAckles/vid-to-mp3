@@ -12,8 +12,11 @@ def convert_to_mp3(input_video, output_mp3):
         # Extract the audio from the video clip
         audio_clip = video_clip.audio
 
-        # Write the extracted audio to the output MP3 file
-        audio_clip.write_audiofile(output_mp3, codec='mp3')#added the codec mp3
+        # Specify a valid output MP3 file path with the '.mp3' extension
+        output_mp3 = output_mp3 + '.mp3'
+
+        # Write the extracted audio to the output MP3 file with 'mp3' codec
+        audio_clip.write_audiofile(output_mp3, codec='mp3')
 
         # Close the audio and video clips
         audio_clip.close()
@@ -28,8 +31,8 @@ def convert_to_mp3(input_video, output_mp3):
 # Prompt the user to input the path of the source video file
 input_video = input("Enter the input video file path: ")
 
-# Prompt the user to input the path for the output MP3 file
-output_mp3 = input("Enter the output MP3 file path: ")
+# Prompt the user to input the path for the output MP3 file (without the extension)
+output_mp3 = input("Enter the output MP3 file path (without extension): ")
 
 # Call the convert_to_mp3 function to perform the conversion
 convert_to_mp3(input_video, output_mp3)
