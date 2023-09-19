@@ -13,7 +13,7 @@ def convert_to_mp3(input_video, output_mp3):
         audio_clip = video_clip.audio
 
         # Write the extracted audio to the output MP3 file
-        audio_clip.write_audiofile(output_mp3)
+        audio_clip.write_audiofile(output_mp3, codec='mp3')#added the codec mp3
 
         # Close the audio and video clips
         audio_clip.close()
