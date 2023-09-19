@@ -1,7 +1,12 @@
-# Video to MP3 Converter
+
 
 Convert video files into MP3 audio files effortlessly with this Python script using the MoviePy library.
 
+#Are you like me sick and tired from downloading a prog or app on google play to convert a avideo to mp3
+that displays so many ads if you don't wanna pay for it?
+then use this free of ads python script and enjoy
+
+# Video to MP3 Converter
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
