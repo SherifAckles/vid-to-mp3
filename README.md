@@ -22,14 +22,14 @@ Download the Script:
 
 Download the video_to_mp3.py script from this repository.
 
-usage
+  Usage
 To convert a video file to an MP3 audio file, use the video_to_mp3.py script with the following command:
 For mac python vidto-mp3.py
 For windows py vidto-mp3.py
 
 The script will prompt you to provide the input video file path and the desired output MP3 file path.
 
-Examples
+  Examples
 Input Video File
 The input video file should be the full path to the video you want to convert to MP3. For example:
 
@@ -42,7 +42,7 @@ Enter the output MP3 file path: C:\Music\my_audio
 
 After the conversion, the script will create an MP3 file named vid-converter-output.mp3 at the specified location.
 
-License
+  License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 
